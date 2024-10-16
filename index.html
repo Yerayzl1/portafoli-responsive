@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="./style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio - Yeray Zafra</title>
+  </head>
+  <body class="bg-gray-100 text-gray-800">
+
+    <!-- Capçalera -->
+    <header class="bg-black text-white p-4">
+      <nav class="container mx-auto">
+        <ul class="flex justify-center space-x-4">
+          <li><a href="#about" class="hover:bg-gray-700 p-2 rounded">Sobre Mi</a></li>
+          <li><a href="#projects" class="hover:bg-gray-700 p-2 rounded">Proyectos</a></li>
+          <li><a href="#languages" class="hover:bg-gray-700 p-2 rounded">Lenguajes</a></li>
+          <li><a href="#contact" class="hover:bg-gray-700 p-2 rounded">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+  
+    <!-- Secció Sobre Mi -->
+    <section id="about" class="py-12 bg-white shadow-md">
+      <div class="container mx-auto text-center">
+        <h1 class="text-4xl font-bold mb-6">Sobre Mi</h1>
+        <img src="./img/yeray.jpg" alt="Yeray" class="w-36 h-36 rounded-full mx-auto mb-4 shadow-lg transform transition-transform hover:scale-110">
+        <h2 class="text-2xl font-semibold">Yeray Zafra</h2>
+        <p class="max-w-2xl mx-auto mt-4 text-gray-600">Un desarrollador FullStack con <strong>muchos</strong> proyectos hechos y <strong>más</strong> por hacer.</p>
+      </div>
+    </section>
+  
+    <!-- Secció Projectes -->
+    <section id="projects" class="py-12 bg-gray-50">
+      <div class="container mx-auto">
+        <h2 class="text-3xl font-bold text-center mb-6">Mis Proyectos</h2>
+        <div class="flex flex-wrap justify-center gap-6">
+          <div class="bg-white shadow-lg p-6 max-w-xs text-center">
+            <img src="img/byJesi.jpg" alt="Proyecto 1" class="w-full h-48 object-cover mb-4 transform transition-transform hover:scale-110">
+            <h3 class="text-xl font-semibold">Perruqueria ByJesi</h3>
+            <p class="text-gray-600">Aplicación para gestionar una peluquería.</p>
+          </div>
+          <div class="bg-white shadow-lg p-6 max-w-xs text-center">
+            <img src="img/netlu.png" alt="Proyecto 2" class="w-full h-48 object-cover mb-4 transform transition-transform hover:scale-110">
+            <h3 class="text-xl font-semibold">Netlu Solucions Tecnologiques S.L</h3>
+            <p class="text-gray-600">Aplicación para gestionar telefonía, tareas, usuarios...</p>
+          </div>
+          <div class="bg-white shadow-lg p-6 max-w-xs text-center">
+            <h3 class="text-xl font-semibold">Hay más proyectos, pero estos son los más importantes.</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    <!-- Secció Llenguatges -->
+    <section id="languages" class="py-12 bg-gray-100">
+      <div class="container mx-auto">
+        <h2 class="text-3xl font-bold text-center mb-6">Lenguajes que domino</h2>
+        <div class="flex flex-wrap justify-center gap-6">
+          <!-- Lenguajes -->
+          <div class="bg-white shadow-lg p-6 max-w-xs text-center">
+            <img src="img/java.png" alt="Java" class="w-full h-48 object-cover mb-4 transform transition-transform hover:scale-110">
+            <h3 class="text-xl font-semibold">Java</h3>
+            <p class="text-gray-600">Lenguaje que aprendí el 1r año de grado superior.</p>
+          </div>
+          <div class="bg-white shadow-lg p-6 max-w-xs text-center">
+            <img src="img/javascript.png" alt="JavaScript" class="w-full h-48 object-cover mb-4 transform transition-transform hover:scale-110">
+            <h3 class="text-xl font-semibold">JavaScript</h3>
+            <p class="text-gray-600">Lenguaje que uso en Front-end en el 2n año de grado superior.</p>
+          </div>
+          <div class="bg-white shadow-lg p-6 max-w-xs text-center">
+            <img src="img/php.png" alt="PHP" class="w-full h-48 object-cover mb-4 transform transition-transform hover:scale-110">
+            <h3 class="text-xl font-semibold">PHP</h3>
+            <p class="text-gray-600">Lenguaje que uso en Back-end en el 2n año de grado superior.</p>
+          </div>
+          <div class="bg-white shadow-lg p-6 max-w-xs text-center">
+            <img src="img/vue.png" alt="Vue.js" class="w-full h-48 object-cover mb-4 transform transition-transform hover:scale-110">
+            <h3 class="text-xl font-semibold">Vue.js</h3>
+            <p class="text-gray-600">Lenguaje que uso en Front-end para Netlu.</p>
+          </div>
+          <div class="bg-white shadow-lg p-6 max-w-xs text-center">
+            <img src="img/nodejs.png" alt="Node.js" class="w-full h-48 object-cover mb-4 transform transition-transform hover:scale-110">
+            <h3 class="text-xl font-semibold">Node.js</h3>
+            <p class="text-gray-600">Lenguaje que uso en Back-end para Netlu.</p>
+          </div>
+          <div class="bg-white shadow-lg p-6 max-w-xs text-center">
+            <img src="img/electron.png" alt="Electron" class="w-full h-48 object-cover mb-4 transform transition-transform hover:scale-110">
+            <h3 class="text-xl font-semibold">Electron</h3>
+            <p class="text-gray-600">Lenguaje que uso en Desktop App para Netlu.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+<!-- Secció Contacte -->
+<section id="contact" class="py-12 bg-gray-200">
+  <div class="container mx-auto">
+    <h2 class="text-3xl font-bold text-center mb-6">Contacto</h2>
+    <div class="flex flex-wrap justify-center gap-6">
+      <div class="bg-white shadow-lg p-6 max-w-xs text-center">
+        <img src="img/email.png" alt="Correo electrónico" class="w-24 h-24 mx-auto mb-4">
+        <a href="mailto:yeray.zafra@cirvianum.cat">
+          <button class="bg-blue-500 text-white font-bold py-2 px-6 rounded hover:bg-blue-700 transition-colors duration-300">Correo electrónico</button>
+        </a>
+      </div>
+      <div class="bg-white shadow-lg p-6 max-w-xs text-center">
+        <img src="img/linkedin.png" alt="Linkedin" class="w-24 h-24 mx-auto mb-4">
+        <a href="https://www.linkedin.com/in/yeray-zafra-6b9198292/">
+          <button class="bg-blue-500 text-white font-bold py-2 px-6 rounded hover:bg-blue-700 transition-colors duration-300">LinkedIn</button>
+        </a>      
+      </div>
+      <div class="bg-white shadow-lg p-6 max-w-xs text-center">
+        <img src="img/whatsapp.png" alt="Whatsapp" class="w-24 h-24 mx-auto mb-4">
+        <a href="#">
+          <button class="bg-blue-500 text-white font-bold py-2 px-6 rounded hover:bg-blue-700 transition-colors duration-300">Whatsapp</button>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+  
+  </body>
+</html>
